@@ -1,0 +1,41 @@
+:root{
+    --icon-size: 22px;
+    --icon-container-size: 32px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* Typography */
+body{
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+/* icon */
+.icon-container{
+    align-items: center;
+    border-radius: 100%;
+    display: inline-flex;
+    height: var(--icon-container-size);
+    justify-content: center;
+    margin-top: 16px;
+    width: var(--icon-container-size);
+}
+
+.icon{
+    width: var(--icon-size);
+    height: var(--icon-size);
+    cursor: pointer;
+}
+
+.icon-loupe{
+    width: 15px;
+    height: 15px;
+}
+
+.icon-container:hover{
+    background: rgba(241, 243, 244, 1);
+}
