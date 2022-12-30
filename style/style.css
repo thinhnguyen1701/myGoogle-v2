@@ -11,7 +11,7 @@ html{
 body{
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 /* icon */
@@ -74,3 +74,20 @@ body{
 }
 
 /* buttons */
+.btn-group{
+    padding: 2.5rem;
+}
+
+.btn{
+    padding: 1.3rem;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 0 12px;
+}
+
+.btn:hover{
+    border-color: lightgrey;
+    box-shadow: 0 1px lightgrey;
+}
