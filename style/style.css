@@ -39,3 +39,38 @@ body{
 .icon-container:hover{
     background: rgba(241, 243, 244, 1);
 }
+
+/* input */
+.input-group{
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid lightgrey;
+    display: flex;
+    margin: 0 auto;
+    max-width: 582px;
+    padding: 4px 0 4px 20px;
+    width: 100%;
+}
+
+.input-group:hover{
+    box-shadow: 0 0 10px 0 lightgrey;
+}
+
+.input-group .input{
+    border: 0;
+    flex-grow: 1;
+    margin-left: 15px;
+    outline: 0;
+}
+
+.input-group__features .icon{
+    height: 35px;
+    padding: 0 8px;
+    width: 35px;
+}
+
+.input{
+    font-size: 1.6rem;
+}
+
+/* buttons */
