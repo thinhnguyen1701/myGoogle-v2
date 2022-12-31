@@ -138,9 +138,9 @@ body {
     margin-top: 60px;
 }
 
-.logo__goggle{
+.logo__google{
     width: 100%;
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 
 /* container */
