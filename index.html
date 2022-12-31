@@ -14,43 +14,93 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav">
-            <div class="nav__left">
-                <ul class="list">
-                    <li class="list__item">
-                        <a href="#">About</a>
-                    </li>
-                    <li class="list__item">
-                        <a href="#">Store</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav__right">
-                <div class="nav__right__left-side">
+
+    <section class="container">
+        <header>
+            <nav class="nav">
+                <div class="nav__left">
                     <ul class="list">
                         <li class="list__item">
-                            <a href="#">Gmail</a>                
+                            <a class="link" href="#">About</a>
                         </li>
                         <li class="list__item">
-                            <a href="#">Images</a>
+                            <a class="link" href="#">Store</a>
                         </li>
                     </ul>
                 </div>
-                <div class="nav__right__right-side">
-                    <span class="icon-container">
-                        <img class="icon" src="images/grid.svg" alt="grid toggle">
-                    </span>
-                    <span class="avata-container">
-                        <img class="avata" src="images/cat.jpeg" alt="user avata">
-                    </span>
+                <div class="nav__right">
+                    <div class="nav__right__left-side">
+                        <ul class="list">
+                            <li class="list__item">
+                                <a class="link" href="#">Gmail</a>
+                            </li>
+                            <li class="list__item">
+                                <a class="link" href="#">Images</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav__right__right-side">
+                        <span class="icon-container">
+                            <img class="icon" src="images/grid.svg" alt="grid toggle">
+                        </span>
+                        <span class="avata-container">
+                            <img class="avata" src="images/cat.jpeg" alt="user avata">
+                        </span>
+                    </div>
                 </div>
+            </nav>
+        </header>
+        <picture class="logo">
+            <img class="logo__google" src="images/google.gif" alt="google logo">
+        </picture>
+        <div class="input-group">
+            <img class="icon-loupe" src="images/loupe.svg" alt="loupe">
+            <input type="text" class="input" maxlength="2024">
+            <div class="input-group__features">
+                <img class="icon" src="images/google_mic.svg" alt="google microphone">
+                <img class="icon" src="images/google_lens.svg" alt="google lens">
             </div>
-        </nav>
-    </header>
-    <div>
-        
-    </div>
+        </div>
+        <div class="btn-group">
+            <input class="btn" type="button" value="Google Search">
+            <input type="button" value="I'm Felling Lucky" class="btn">
+        </div>
+        <div class="trends-2022">
+            <p>Look back on the year by exploding the <a href="#">Seach trends of 2022</a></p>
+        </div>
+        <footer class="footer">
+            <ul class="list">
+                <li class="list__item">
+                    <a class="link" href="#">
+                        <img class="list__icon" src="images/leaf.png" alt="A leaf">
+                        Carbon neutral since 2007</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="list__item">
+                    <a class="link" href="#">Advertising</a>
+                </li>
+                <li class="list__item">
+                    <a class="link" href="#">Business</a>
+                </li>
+                <li class="list__item">
+                    <a class="link" href="#">How Search works</a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="list__item">
+                    <a class="link" href="#">Privacy</a>
+                </li>
+                <li class="list__item">
+                    <a class="link" href="#">Terms</a>
+                </li>
+                <li class="list__item">
+                    <div class="website-setting">Settings</div>
+                </li>
+            </ul>
+        </footer>
+    </section>
+
 </body>
 
 </html>

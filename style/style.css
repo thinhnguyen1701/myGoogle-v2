@@ -9,12 +9,13 @@ html {
     font-size: 62.5%;
 }
 
-a{
+/* links */
+.link{
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+.link:hover{
     text-decoration: underline;
 }
 
@@ -57,7 +58,6 @@ body {
     border-radius: 40px;
     border: 1px solid lightgrey;
     display: flex;
-    margin: 0 auto;
     max-width: 582px;
     padding: 4px 0 4px 20px;
     width: 100%;
@@ -133,6 +133,42 @@ body {
     margin-left: 15px;
 }
 
+/* logo */
+.logo{
+    margin-top: 60px;
+}
+
+.logo__goggle{
+    width: 100%;
+    max-width: 500px;
+}
+
+/* container */
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btn-group,
+.logo,
+.input-group,
+.trends-2022{
+    align-self: center;
+}
+
+.trends-2022{
+    margin: 0 0 auto 0;
+}
+
+.trends-2022 p{
+    margin: 0;
+}
+
+.trends-2022 a{
+    
+}
+
 /* navigation bar */
 .nav {
     display: flex;
@@ -189,4 +225,9 @@ body {
 .website-setting {
     color: var(--color-link);
     cursor: pointer;
+}
+
+/* trends 2022 */
+.trends-2022{
+    
 }
